@@ -1,6 +1,6 @@
 import {auth} from '../../utils/firebase/firebase.utils'
 import {getRedirectResult} from 'firebase/auth';
-import {SignUpForm} from '../../sign-up/sign-up';
+import {SignUpForm} from '../../components/sign-up/sign-up';
 import {SignInForm} from '../../components/sign-in-form/sign-in-form';
 import './sign-in.component.scss'
 
