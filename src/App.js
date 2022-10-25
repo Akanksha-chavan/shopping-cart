@@ -2,14 +2,9 @@ import{Routes,Route} from 'react-router-dom';
 import Home from './routes/Home/home.component';
 import Navigation from './routes/navigation/navigation.component';
 import SignIn from './routes/sign-In/sign-in.component'
+import Shop from './routes/shop/shop-Component';
+
 function App() { 
-
-  let Shop=()=>{
-    return(
-      <div>Shop Page</div>
-    );
-  } 
-
   return (
     <Routes>
       <Route path='/' element={<Navigation/>}>
