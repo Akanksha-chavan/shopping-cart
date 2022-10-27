@@ -5,7 +5,6 @@
     border-bottom: 1px solid darkgrey;
     font-size: 20px;
     padding: 15px 0;
-    justify-content: center;
 
     .image-container{
         width:23%;
@@ -29,10 +28,10 @@
 
         .quantity{
            margin:0 10px;
-        }
 
-        .arrow{
-            cursor: pointer;
+           .arrow{
+                cursor: pointer;
+            }
         }
     }
 }

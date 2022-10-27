@@ -3,7 +3,7 @@ import {CartDropDownContext} from '../../context/cart-dropdown.context';
 import './checkout-item.scss';
 
 export const CheckoutItem=({item})=>{
-    const {id, name,quantity, imageUrl, price} = item;
+    const {name,quantity, imageUrl, price} = item;
     const {AddItemstoCart,RemoveItemsfromCart,ClearItemfromCart}= useContext(CartDropDownContext);
     return(
         <div className='checkout-item-container'> 
