@@ -92,7 +92,6 @@ const firebaseConfig = {
     objectsToAdd.map((object)=>{
       const docRef = doc(collectionRef,object.title.toLowerCase());
       batch.set(docRef,object);
-      return ;
     });
 
     await batch.commit();
